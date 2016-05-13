@@ -11,7 +11,14 @@
     tools:context="com.training.android.helloworld.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:background="#ab47bc"
+        android:gravity="center"
+        android:text="Hello There!"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"/>
 </RelativeLayout>
